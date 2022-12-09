@@ -2,7 +2,7 @@
 
 Steps to repeat:
 1. `cd` to `src/app` directory
-2. Launch Dapr sidecar (probably from separate terminal): `dapr run --app-id "app" --app-port "5200" --components-path "components"`:
+2. Launch Dapr sidecar (probably from separate terminal):
 ```
 C:\src\dapr-bug-001\src\app>dapr run --app-id "app" --app-port "5200" --components-path "components"
 WARNING: no application command found.
