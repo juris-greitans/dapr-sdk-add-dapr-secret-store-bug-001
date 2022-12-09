@@ -1,4 +1,4 @@
-﻿A .NET Core 7 app demo for case when `Dapr.Extensions.Configuration.AddDaprSecretStore()` fails if Dapr sidecar is started separately and waits for the app to start listening on its port.
+﻿A .NET Core 7 app demo for [issue](https://github.com/dapr/dotnet-sdk/issues/993) when `Dapr.Extensions.Configuration.AddDaprSecretStore()` fails if Dapr sidecar is started separately and waits for the app to start listening on its port.
 
 Steps to repeat:
 1. `cd` to `src/app` directory
